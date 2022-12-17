@@ -16,7 +16,7 @@ You will need a recent version of Rust installed.
 
 ## References
 
-If you want to see all my solutions for Advent of Code you can check out my repository [https://github.com/lmammino/rust-advent]. I also stream these solutions on [Twitch](https://twitch.tv/loige) and the recordings are available on [YouTube](https://www.youtube.com/playlist?list=PLbNOKnE-Oyr0vFpzJL097rc8P_NfeatLD).
+If you want to see all my solutions for Advent of Code you can check out [my solutions repository](https://github.com/lmammino/rust-advent). I also stream these solutions on [Twitch](https://twitch.tv/loige) and the recordings are available on [YouTube](https://www.youtube.com/playlist?list=PLbNOKnE-Oyr0vFpzJL097rc8P_NfeatLD).
 
 
 ## Contributing
