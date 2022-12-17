@@ -1,0 +1,11 @@
+[package]
+name = "sand-simulator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+generator = "0.7.2"
+nannou = "0.18.1"
+nom = "7.1.1"
