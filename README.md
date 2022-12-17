@@ -1,6 +1,6 @@
 # nannou-sand-simulation
 
-Learning [nannou](https://docs.rs/nannou), an open-source creative-coding toolkit for Rust, by implementing a visualization for a simulation of sand falling down in a cave (inspired by [Advent of Code year 2022 day 14](https://adventofcode.com/2022/day/14)).
+Learning [nannou](https://nannou.cc/), an open-source creative-coding toolkit for Rust, by implementing a visualization for a simulation of sand falling down in a cave (inspired by [Advent of Code year 2022 day 14](https://adventofcode.com/2022/day/14)).
 
 ![The sample visualization](./images/demo.gif)
 
