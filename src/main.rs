@@ -23,7 +23,7 @@ struct Model<'a> {
 }
 
 fn model(app: &App) -> Model<'static> {
-    app.new_window().size(800, 600).view(view).build().unwrap();
+    app.new_window().size(600, 600).view(view).build().unwrap();
 
     let input = include_str!("input.txt");
     let cave: Cave = input.parse().unwrap();
@@ -74,6 +74,15 @@ fn view(app: &App, model: &Model, frame: Frame) {
                 .color(rgb8(69, 55, 55));
         }
         draw.to_frame(app, &frame).unwrap();
+
+        // Decomment the code below if you want to save the frames to disk
+        // let path = app
+        //     .project_path()
+        //     .unwrap()
+        //     .join("frames")
+        //     .join(format!("{:06}.png", frame.nth()))
+        //     .with_extension("png");
+        // app.main_window().capture_frame(path);
     }
 }
 
